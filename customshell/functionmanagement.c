@@ -220,7 +220,7 @@ void function(char *command, char *home, char *logpath, int modeflag, Alias *hea
         }
         else if (strcmp(words[0], "log") == 0)
         {
-            logmanagement(temp, home, logpath, prevdirectory);
+            logmanagement(temp, home, logpath, head);
         }
         else if (strcmp(words[0], "reveal") == 0)
         {

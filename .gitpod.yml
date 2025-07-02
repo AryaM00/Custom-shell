@@ -1,1 +1,8 @@
+# .gitpod.yml
+tasks:
+  - name: Build and Run
+    init: sudo apt update && sudo apt install -y build-essential
+    command: |
+      make
+      ./myprogram   # replace with your actual executable name
 
